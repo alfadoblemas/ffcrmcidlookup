@@ -42,7 +42,7 @@ Set own data for connect to ffcrm DB. See db_*
 Install console browser on server. Lynx for example.
 Request like this can help test without PBX.
 ```bash
-lynx "127.0.0.1:9393/?number=7968866XXXXXX
+lynx "127.0.0.1:9393/?number=7968866XXXXXX"
 ```
 Where 7968866XXXXXX -- phone number in ffcrm DB.
 

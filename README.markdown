@@ -2,7 +2,7 @@
 Can be used with FeeSWITCH (mod\_cidlookup) or Asterisk FreePBX module ( CallerID Lookup ).
 Provides the definition of the name or business name on a search by phone number in the database [Fat Free CRM](http://www.fatfreecrm.com/) (ffcrm).
 
-### Attention! Requires patch ffsrm code too. Will on github soon.
+### Attention! Requires patch ffsrm code too. Will be soon on github.
 
 ### installation
 On PBX server. Install RVM, ruby 1.9.x.
@@ -50,7 +50,6 @@ Where 7968866XXXXXX -- phone number in ffcrm DB.
 See code in app.rb
 
 * remove leading 0 -- before searching
-* remove local country code -- before starching
-* output name and etc in translit -- work for russian and latvian languages. 
-
-Most phones don't work with utf-8.
+* remove local country code -- before searching
+* search phone in order: accounts, clients, leds and users
+* output name and etc in translit -- work for russian and latvian languages, becauce most phones don't work with utf-8

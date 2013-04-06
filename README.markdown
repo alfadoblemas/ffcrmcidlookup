@@ -2,7 +2,9 @@
 Can be used with FeeSWITCH (mod\_cidlookup) or Asterisk FreePBX module ( CallerID Lookup ).
 Provides the definition of the name or business name on a search by phone number in the database [Fat Free CRM](http://www.fatfreecrm.com/) (ffcrm).
 
-### Attention! Requires patch ffsrm code too. Will be soon on github.
+### Attention! Requires patch ffsrm code too.
+
+See https://github.com/4orbit/fat_free_crm/tree/cidlookup
 
 ### installation
 On PBX server. Install RVM, ruby 1.9.x.
